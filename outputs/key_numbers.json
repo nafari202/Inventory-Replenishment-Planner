@@ -1,0 +1,438 @@
+{
+  "cleaning": {
+    "raw rows": 1067371,
+    "after removing cancellations and the sales they reversed": 1042703,
+    "after removing zero or negative quantity/price": 1036498,
+    "after removing postage, fees and vouchers": 1031851,
+    "after removing duplicate rows": 998348
+  },
+  "skus_2010": 3937,
+  "skus_planned": 3068,
+  "revenue_2010": 9217758.88,
+  "abc": {
+    "A": {
+      "skus": 887,
+      "share": 0.8001
+    },
+    "B": {
+      "skus": 1040,
+      "share": 0.1499
+    },
+    "C": {
+      "skus": 2010,
+      "share": 0.05
+    }
+  },
+  "xyz": {
+    "Z": 2271,
+    "Y": 1310,
+    "X": 356
+  },
+  "matrix": [
+    {
+      "abc": "A",
+      "xyz": "X",
+      "skus": 268,
+      "revenue": 3152082.64,
+      "revenue_share": 0.342
+    },
+    {
+      "abc": "A",
+      "xyz": "Y",
+      "skus": 430,
+      "revenue": 3210324.86,
+      "revenue_share": 0.3483
+    },
+    {
+      "abc": "A",
+      "xyz": "Z",
+      "skus": 189,
+      "revenue": 1012666.93,
+      "revenue_share": 0.1099
+    },
+    {
+      "abc": "B",
+      "xyz": "X",
+      "skus": 81,
+      "revenue": 129280.2,
+      "revenue_share": 0.014
+    },
+    {
+      "abc": "B",
+      "xyz": "Y",
+      "skus": 478,
+      "revenue": 648735.52,
+      "revenue_share": 0.0704
+    },
+    {
+      "abc": "B",
+      "xyz": "Z",
+      "skus": 481,
+      "revenue": 604025.64,
+      "revenue_share": 0.0655
+    },
+    {
+      "abc": "C",
+      "xyz": "X",
+      "skus": 7,
+      "revenue": 3535.73,
+      "revenue_share": 0.0004
+    },
+    {
+      "abc": "C",
+      "xyz": "Y",
+      "skus": 402,
+      "revenue": 148976.79,
+      "revenue_share": 0.0162
+    },
+    {
+      "abc": "C",
+      "xyz": "Z",
+      "skus": 1601,
+      "revenue": 308130.57,
+      "revenue_share": 0.0334
+    }
+  ],
+  "demand_2011_vs_2010_planned": 0.777,
+  "policy": {
+    "skus": 3068.0,
+    "demand_value": 7033017.418,
+    "sold_value": 6636292.8043,
+    "lost_units": 173590.0,
+    "stockout_weeks": 1813.0,
+    "avg_inventory_value": 1197979.9861,
+    "orders": 4613.0,
+    "holding_cost": 276456.9199,
+    "ordering_cost": 115325.0,
+    "fill_rate": 0.9436,
+    "total_cost": 391781.9199
+  },
+  "weeks_of_cover": {
+    "skus": 3068.0,
+    "demand_value": 7033017.418,
+    "sold_value": 6605942.3088,
+    "lost_units": 182876.0,
+    "stockout_weeks": 1943.0,
+    "avg_inventory_value": 1214986.4721,
+    "orders": 4569.0,
+    "holding_cost": 280381.4936,
+    "ordering_cost": 114225.0,
+    "fill_rate": 0.9393,
+    "total_cost": 394606.4936
+  },
+  "policy_by_abc": {
+    "A": {
+      "skus": 822,
+      "demand_value": 5479822.5966,
+      "sold_value": 5288764.2542,
+      "lost_units": 71166.0,
+      "stockout_weeks": 373,
+      "avg_inventory_value": 742399.1003,
+      "orders": 2601.0,
+      "holding_cost": 171322.8693,
+      "ordering_cost": 65025.0,
+      "fill_rate": 0.9651,
+      "total_cost": 236347.8693
+    },
+    "B": {
+      "skus": 863,
+      "demand_value": 1024008.9327,
+      "sold_value": 912570.2178,
+      "lost_units": 45459.0,
+      "stockout_weeks": 469,
+      "avg_inventory_value": 282843.0076,
+      "orders": 1043.0,
+      "holding_cost": 65271.4633,
+      "ordering_cost": 26075.0,
+      "fill_rate": 0.8912,
+      "total_cost": 91346.4633
+    },
+    "C": {
+      "skus": 1383,
+      "demand_value": 529185.8887,
+      "sold_value": 434958.3323,
+      "lost_units": 56965.0,
+      "stockout_weeks": 971,
+      "avg_inventory_value": 172737.8783,
+      "orders": 969.0,
+      "holding_cost": 39862.5873,
+      "ordering_cost": 24225.0,
+      "fill_rate": 0.8219,
+      "total_cost": 64087.5873
+    }
+  },
+  "cover_by_abc": {
+    "A": {
+      "skus": 822,
+      "demand_value": 5479822.5966,
+      "sold_value": 5269881.2832,
+      "lost_units": 76072.0,
+      "stockout_weeks": 419,
+      "avg_inventory_value": 770895.0155,
+      "orders": 2585.0,
+      "holding_cost": 177898.8497,
+      "ordering_cost": 64625.0,
+      "fill_rate": 0.9617,
+      "total_cost": 242523.8497
+    },
+    "B": {
+      "skus": 863,
+      "demand_value": 1024008.9327,
+      "sold_value": 903911.786,
+      "lost_units": 48237.0,
+      "stockout_weeks": 515,
+      "avg_inventory_value": 274066.7681,
+      "orders": 1031.0,
+      "holding_cost": 63246.1773,
+      "ordering_cost": 25775.0,
+      "fill_rate": 0.8827,
+      "total_cost": 89021.1773
+    },
+    "C": {
+      "skus": 1383,
+      "demand_value": 529185.8887,
+      "sold_value": 432149.2396,
+      "lost_units": 58567.0,
+      "stockout_weeks": 1009,
+      "avg_inventory_value": 170024.6885,
+      "orders": 953.0,
+      "holding_cost": 39236.4666,
+      "ordering_cost": 23825.0,
+      "fill_rate": 0.8166,
+      "total_cost": 63061.4666
+    }
+  },
+  "policy_by_xyz": {
+    "X": {
+      "skus": 346,
+      "fill_rate": 0.9768,
+      "avg_inventory_value": 264259.6509
+    },
+    "Y": {
+      "skus": 1185,
+      "fill_rate": 0.9467,
+      "avg_inventory_value": 533320.0058
+    },
+    "Z": {
+      "skus": 1537,
+      "fill_rate": 0.8859,
+      "avg_inventory_value": 400400.3294
+    }
+  },
+  "policy_by_cell": [
+    {
+      "abc": "A",
+      "xyz": "X",
+      "skus": 262,
+      "fill_rate": 0.9765,
+      "avg_inventory_value": 240483.1115
+    },
+    {
+      "abc": "A",
+      "xyz": "Y",
+      "skus": 402,
+      "fill_rate": 0.9595,
+      "avg_inventory_value": 348179.4367
+    },
+    {
+      "abc": "A",
+      "xyz": "Z",
+      "skus": 158,
+      "fill_rate": 0.948,
+      "avg_inventory_value": 153736.5521
+    },
+    {
+      "abc": "B",
+      "xyz": "X",
+      "skus": 77,
+      "fill_rate": 0.9887,
+      "avg_inventory_value": 22502.4509
+    },
+    {
+      "abc": "B",
+      "xyz": "Y",
+      "skus": 429,
+      "fill_rate": 0.92,
+      "avg_inventory_value": 132382.173
+    },
+    {
+      "abc": "B",
+      "xyz": "Z",
+      "skus": 357,
+      "fill_rate": 0.8482,
+      "avg_inventory_value": 127958.3837
+    },
+    {
+      "abc": "C",
+      "xyz": "X",
+      "skus": 7,
+      "fill_rate": 0.8953,
+      "avg_inventory_value": 1274.0886
+    },
+    {
+      "abc": "C",
+      "xyz": "Y",
+      "skus": 354,
+      "fill_rate": 0.8364,
+      "avg_inventory_value": 52758.396
+    },
+    {
+      "abc": "C",
+      "xyz": "Z",
+      "skus": 1022,
+      "fill_rate": 0.8137,
+      "avg_inventory_value": 118705.3937
+    }
+  ],
+  "sweep": [
+    {
+      "method": "Statistical",
+      "label": "50%",
+      "fill_rate": 0.877,
+      "avg_inventory_value": 846958.5176,
+      "total_cost": 304076.9656,
+      "stockout_weeks": 3852.0
+    },
+    {
+      "method": "Statistical",
+      "label": "70%",
+      "fill_rate": 0.9023,
+      "avg_inventory_value": 937127.818,
+      "total_cost": 327235.2657,
+      "stockout_weeks": 2911.0
+    },
+    {
+      "method": "Statistical",
+      "label": "80%",
+      "fill_rate": 0.9145,
+      "avg_inventory_value": 994618.7028,
+      "total_cost": 342077.3929,
+      "stockout_weeks": 2516.0
+    },
+    {
+      "method": "Statistical",
+      "label": "90%",
+      "fill_rate": 0.9294,
+      "avg_inventory_value": 1075787.4905,
+      "total_cost": 362358.6517,
+      "stockout_weeks": 2102.0
+    },
+    {
+      "method": "Statistical",
+      "label": "95%",
+      "fill_rate": 0.9387,
+      "avg_inventory_value": 1144833.3163,
+      "total_cost": 379367.3038,
+      "stockout_weeks": 1839.0
+    },
+    {
+      "method": "Statistical",
+      "label": "98%",
+      "fill_rate": 0.9457,
+      "avg_inventory_value": 1223088.3286,
+      "total_cost": 398301.1527,
+      "stockout_weeks": 1612.0
+    },
+    {
+      "method": "Statistical",
+      "label": "99%",
+      "fill_rate": 0.9502,
+      "avg_inventory_value": 1274568.5265,
+      "total_cost": 410631.1984,
+      "stockout_weeks": 1498.0
+    },
+    {
+      "method": "Statistical",
+      "label": "99.5%",
+      "fill_rate": 0.9541,
+      "avg_inventory_value": 1323191.7668,
+      "total_cost": 422326.9462,
+      "stockout_weeks": 1381.0
+    },
+    {
+      "method": "Weeks of cover",
+      "label": "0 wk",
+      "fill_rate": 0.877,
+      "avg_inventory_value": 846958.5176,
+      "total_cost": 304076.9656,
+      "stockout_weeks": 3852.0
+    },
+    {
+      "method": "Weeks of cover",
+      "label": "1 wk",
+      "fill_rate": 0.9009,
+      "avg_inventory_value": 934759.9147,
+      "total_cost": 326213.8265,
+      "stockout_weeks": 3059.0
+    },
+    {
+      "method": "Weeks of cover",
+      "label": "2 wk",
+      "fill_rate": 0.9175,
+      "avg_inventory_value": 1025571.1239,
+      "total_cost": 348995.2594,
+      "stockout_weeks": 2536.0
+    },
+    {
+      "method": "Weeks of cover",
+      "label": "3 wk",
+      "fill_rate": 0.931,
+      "avg_inventory_value": 1120387.0791,
+      "total_cost": 372050.8644,
+      "stockout_weeks": 2188.0
+    },
+    {
+      "method": "Weeks of cover",
+      "label": "4 wk",
+      "fill_rate": 0.9393,
+      "avg_inventory_value": 1214986.4721,
+      "total_cost": 394606.4936,
+      "stockout_weeks": 1943.0
+    },
+    {
+      "method": "Weeks of cover",
+      "label": "6 wk",
+      "fill_rate": 0.9514,
+      "avg_inventory_value": 1410626.4393,
+      "total_cost": 441329.1783,
+      "stockout_weeks": 1603.0
+    },
+    {
+      "method": "Weeks of cover",
+      "label": "8 wk",
+      "fill_rate": 0.9588,
+      "avg_inventory_value": 1604799.415,
+      "total_cost": 486988.3265,
+      "stockout_weeks": 1353.0
+    }
+  ],
+  "inventory_for_fill_rate": {
+    "fill_rate": 0.95,
+    "Statistical": 1272499,
+    "Weeks of cover": 1388552
+  },
+  "example_sku": {
+    "code": "22423",
+    "description": "REGENCY CAKESTAND 3 TIER",
+    "service_target": 0.98,
+    "z": 2.05,
+    "safety_stock": 659.45,
+    "reorder_point": 1211.0,
+    "eoq": 617.08,
+    "order_qty": 618.0,
+    "demand_units": 11189.0,
+    "sold_units": 11189.0,
+    "lost_units": 0.0,
+    "fill_rate": 1.0,
+    "demand_value": 140435.1695,
+    "sold_value": 140435.1695,
+    "stockout_weeks": 0.0,
+    "avg_on_hand_units": 1043.7917,
+    "avg_inventory_value": 7860.4912,
+    "orders": 18.0,
+    "holding_cost": 1813.9595,
+    "ordering_cost": 450.0,
+    "mean_weekly": 275.7,
+    "sd_weekly": 227.0
+  }
+}
